@@ -23,6 +23,33 @@ A personal list of top albums with full track listings. Data is in `data/albums.
 
 Load in scripts or tests (e.g. Node, Python) by parsing the JSON and iterating over `albums`.
 
+## Dashboard (pandas + Streamlit)
+
+A simple web dashboard visualizes the album data with [pandas](https://github.com/pandas-dev/pandas) (data analysis library) and Plotly.
+
+### Install
+
+From the repo folder (Python 3.8+):
+
+```powershell
+cd c:\Users\chels\Top_100_Albums
+pip install -r requirements.txt
+```
+
+### Run
+
+```powershell
+cd c:\Users\chels\Top_100_Albums
+streamlit run scripts/dashboard.py
+```
+
+A browser window opens with:
+
+- **Metrics:** album count, artist count, total tracks
+- **Filters:** year range and artist (sidebar)
+- **Table:** albums (title, artist, year, track count)
+- **Charts:** albums by year, albums per artist, track count distribution
+
 ## Pushing updates to GitHub
 
 From the repo folder:
