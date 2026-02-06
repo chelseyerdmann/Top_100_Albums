@@ -1,31 +1,166 @@
 {
   "albums": [
-    { "title": "RELAXER", "artist": "Alt-J", "year": 2017 },
-    { "title": "The Dream", "artist": "Alt-J", "year": 2022 },
-    { "title": "Blue Weekend", "artist": "Wolf Alice", "year": 2021 },
-    { "title": "Cuttin' Grass - Vol. 1 (Butcher Shoppe Sessions)", "artist": "Sturgill Simpson", "year": 2020 },
-    { "title": "Emotionalism", "artist": "The Avett Brothers", "year": 2007 },
-    { "title": "Mignonette", "artist": "The Avett Brothers", "year": 2004 },
-    { "title": "Mean Everything to Nothing", "artist": "Manchester Orchestra", "year": 2009 },
-    { "title": "The Wall", "artist": "Pink Floyd", "year": 1979 },
-    { "title": "Mosquito (Deluxe)", "artist": "Yeah Yeah Yeahs", "year": 2013 },
-    { "title": "Dragon New Warm Mountain I Believe In You", "artist": "Big Thief", "year": 2022 },
-    { "title": "The Ballad of Dood & Juanita", "artist": "Sturgill Simpson", "year": 2021 },
-    { "title": "It's Blitz!", "artist": "Yeah Yeah Yeahs", "year": 2009 },
-    { "title": "This Is All Yours", "artist": "Alt-J", "year": 2014 },
-    { "title": "3 Rounds and a Sound", "artist": "Blind Pilot", "year": 2008 },
-    { "title": "Meddle", "artist": "Pink Floyd", "year": 1971 },
-    { "title": "Captain Fantastic And The Brown Dirty Cowboy", "artist": "Elton John", "year": 1975 },
-    { "title": "Tusk", "artist": "Fleetwood Mac", "year": 1979 },
-    { "title": "The Gleam II", "artist": "The Avett Brothers", "year": 2008 },
-    { "title": "Stars and Satellites", "artist": "Trampled by Turtles", "year": 2012 },
-    { "title": "Sgt. Peppers Lonely Hearts Club Band", "artist": "The Beatles", "year": 1967 },
-    { "title": "Dopamine", "artist": "BORNS", "year": 2015 },
-    { "title": "Crushing", "artist": "Julia Jacklin", "year": 2019 },
-    { "title": "Norman Fucking Rockwell", "artist": "Lana Del Ray", "year": 2019 },
-    { "title": "The King is Dead", "artist": "The Decemberists", "year": 2011 },
-    { "title": "The Crane Wife", "artist": "The Decemberists", "year": 2006 },
-    { "title": "The Beatles", "artist": "The Beatles", "year": 1968 },
-    { "title": "Bloom", "artist": "Beach House", "year": 2012 }
+    {
+      "title": "RELAXER",
+      "artist": "Alt-J",
+      "year": 2017,
+      "tracks": ["3WW", "In Cold Blood", "Adeline", "Deadcrush", "Pleader", "House of the Rising Sun", "Last Year", "Hit Me Like That Snare"]
+    },
+    {
+      "title": "The Dream",
+      "artist": "Alt-J",
+      "year": 2022,
+      "tracks": ["Bane", "U&ME", "Hard Drive Gold", "Happier When You're Gone", "The Actor", "Get Better", "Chicago", "Philadelphia", "Walk a Mile", "Delta", "Losing My Mind", "Powders"]
+    },
+    {
+      "title": "Blue Weekend",
+      "artist": "Wolf Alice",
+      "year": 2021,
+      "tracks": ["The Beach", "Delicious Things", "Lipstick on the Glass", "Smile", "Safe From Heartbreak (if you never fall in love)", "How Can I Make It OK?", "Play the Greatest Hits", "Feeling Myself", "The Last Man on Earth", "No Hard Feelings", "The Beach II"]
+    },
+    {
+      "title": "Cuttin' Grass - Vol. 1 (Butcher Shoppe Sessions)",
+      "artist": "Sturgill Simpson",
+      "year": 2020,
+      "tracks": ["All Around You", "All the Pretty Colors", "Breakers Roar", "I Don't Mind", "I Wonder", "Just Let Go", "Life Ain't Fair and the World Is Mean", "A Little Light", "Life of Sin", "Long White Line", "Living the Dream", "Old King Coal", "Railroad of Sin", "Sitting Here Without You", "Sometimes Wine", "The Storm", "Time After All", "Turtles All the Way Down", "Voices", "Water in a Well"]
+    },
+    {
+      "title": "Emotionalism",
+      "artist": "The Avett Brothers",
+      "year": 2007,
+      "tracks": ["Die, Die, Die", "Shame", "Paranoia in B Major", "The Weight of Lies", "Will You Return?", "The Ballad of Love and Hate", "Salina", "Pretty Girl from Chile", "All My Mistakes", "Living of Love", "I Would Be Sad", "Pretty Girl from San Diego", "Go to Sleep", "Hand-Me-Down Tune"]
+    },
+    {
+      "title": "Mignonette",
+      "artist": "The Avett Brothers",
+      "year": 2004,
+      "tracks": ["Swept Away (Sentimental Version)", "Nothing Short of Thankful", "The New Love Song", "At the Beach", "Hard Worker", "Letter to a Pretty Girl", "Please Pardon Yourself", "Pretty Girl at the Airport", "Pretty Girl from Cedar Lane", "Causey Commentary", "One Line Wonder", "The Day that Marvin Gaye Died", "SSS", "Swept Away", "A Gift for Melody Anne", "Complainte D'vn Matelot Mourant", "Salvation Song", "Signs", "Signs", "Laser Pants"]
+    },
+    {
+      "title": "Mean Everything to Nothing",
+      "artist": "Manchester Orchestra",
+      "year": 2009,
+      "tracks": ["The Only One", "Shake It Out", "I've Got Friends", "Pride", "In My Teeth", "100 Dollar", "I Can Feel A Hot One", "My Friend Marcus", "Tony The Tiger", "Everything To Nothing", "The River", "Jimmy, He Whispers"]
+    },
+    {
+      "title": "Bloom",
+      "artist": "Beach House",
+      "year": 2012,
+      "tracks": ["Myth", "Wild", "Lazuli", "Other People", "The Hours", "Troublemaker", "New Year", "Wishes", "On the Sea", "Irene"]
+    },
+    {
+      "title": "The Wall",
+      "artist": "Pink Floyd",
+      "year": 1979,
+      "tracks": ["In The Flesh?", "The Thin Ice", "Another Brick In The Wall Part 1", "The Happiest Days Of Our Lives", "Another Brick In The Wall Part 2", "Mother", "Goodbye Blue Sky", "Empty Spaces", "Young Lust", "One Of My Turns", "Don't Leave Me Now", "Another Brick In The Wall Part 3", "Goodbye Cruel World", "Hey You", "Is There Anybody Out There?", "Nobody Home", "Vera", "Bring The Boys Back Home", "Comfortably Numb", "The Show Must Go On", "In The Flesh", "Run Like Hell", "Waiting For The Worms", "Stop", "The Trial", "Outside The Wall"]
+    },
+    {
+      "title": "Mosquito (Deluxe)",
+      "artist": "Yeah Yeah Yeahs",
+      "year": 2013,
+      "tracks": ["Sacrilege", "Subway", "Mosquito", "Under the Earth", "Slave", "These Paths", "Area 52", "Buried Alive", "Always", "Despair", "Wedding Song"]
+    },
+    {
+      "title": "Dragon New Warm Mountain I Believe In You",
+      "artist": "Big Thief",
+      "year": 2022,
+      "tracks": ["Change", "Time Escaping", "Spud Infinity", "Certainty", "Dragon New Warm Mountain I Believe in You", "Sparrow", "Little Things", "Heavy Bend", "Flower of Blood", "Blurred View", "Red Moon", "Dried Roses", "No Reason", "Wake Me up to Drive", "Promise Is a Pendulum", "12,000 Lines", "Simulation Swarm", "Love Love Love", "The Only Place", "Blue Lightning"]
+    },
+    {
+      "title": "The Ballad of Dood & Juanita",
+      "artist": "Sturgill Simpson",
+      "year": 2021,
+      "tracks": ["Prologue", "Ol' Dood (Part I)", "One in the Saddle, One on the Ground", "Shamrock", "Played Out", "Sam", "Juanita", "Go in Peace", "Epilogue", "Ol' Dood (Part II)"]
+    },
+    {
+      "title": "It's Blitz!",
+      "artist": "Yeah Yeah Yeahs",
+      "year": 2009,
+      "tracks": ["Zero", "Heads Will Roll", "Soft Shock", "Skeletons", "Dull Life", "Shame and Fortune", "Runaway", "Dragon Queen", "Hysteric", "Little Shadow"]
+    },
+    {
+      "title": "This Is All Yours",
+      "artist": "Alt-J",
+      "year": 2014,
+      "tracks": ["Intro (This Is All Yours)", "Arrival in Nara", "Nara", "Every Other Freckle", "Left Hand Free", "Garden of England", "Choice Kingdom", "Hunger of the Pine", "Warm Foothills", "The Gospel of John Hurt", "Pusher", "Bloodflood Pt. II", "Leaving Nara", "Lovely Day"]
+    },
+    {
+      "title": "3 Rounds and a Sound",
+      "artist": "Blind Pilot",
+      "year": 2008,
+      "tracks": ["Oviedo", "The Story I Heard", "Paint Or Pollen", "Poor Boy", "One Red Thread", "Go On, Say It", "Two Towns From Me", "I Buried A Bone", "Things I Cannot Recall", "The Bitter End", "3 Rounds And A Sound"]
+    },
+    {
+      "title": "Meddle",
+      "artist": "Pink Floyd",
+      "year": 1971,
+      "tracks": ["One of These Days", "A Pillow of Winds", "Fearless", "San Tropez", "Seamus", "Echoes"]
+    },
+    {
+      "title": "Captain Fantastic And The Brown Dirty Cowboy",
+      "artist": "Elton John",
+      "year": 1975,
+      "tracks": ["Captain Fantastic and the Brown Dirt Cowboy", "Tower of Babel", "Bitter Fingers", "Tell Me When the Whistle Blows", "Someone Saved My Life Tonight", "(Gotta Get A) Meal Ticket", "Better Off Dead", "Writing", "We All Fall in Love Sometimes", "Curtains"]
+    },
+    {
+      "title": "Tusk",
+      "artist": "Fleetwood Mac",
+      "year": 1979,
+      "tracks": ["Over & Over", "The Ledge", "Think About Me", "Save Me A Place", "Sara", "What Makes You Think You're The One", "Storms", "That's All For Everyone", "Not That Funny", "Sisters Of The Moon", "Angel", "That's Enough For Me", "Brown Eyes", "Never Make Me Cry", "I Know I'm Not Wrong", "Honey Hi", "Beautiful Child", "Walk A Thin Line", "Tusk", "Never Forget"]
+    },
+    {
+      "title": "The Gleam II",
+      "artist": "The Avett Brothers",
+      "year": 2008,
+      "tracks": ["Tear Down the House", "Murder in the City", "Bella Donna", "The Greatest Sum", "Black, Blue", "St. Joseph's", "Souls Like the Wheels", "The Greatest Sum (Electric)"]
+    },
+    {
+      "title": "Stars and Satellites",
+      "artist": "Trampled by Turtles",
+      "year": 2012,
+      "tracks": ["Midnight On The Interstate", "Alone", "Walt Whitman", "High Water", "Risk", "Widower's Heart", "Sorry", "Beautiful", "Don't Look Down", "Keys To Paradise", "The Calm And The Crying Wind"]
+    },
+    {
+      "title": "Sgt. Peppers Lonely Hearts Club Band",
+      "artist": "The Beatles",
+      "year": 1967,
+      "tracks": ["Sgt. Pepper's Lonely Hearts Club Band", "With a Little Help from My Friends", "Lucy in the Sky with Diamonds", "Getting Better", "Fixing a Hole", "She's Leaving Home", "Being for the Benefit of Mr. Kite!", "Within You Without You", "When I'm Sixty-Four", "Lovely Rita", "Good Morning Good Morning", "Sgt. Pepper's Lonely Hearts Club Band (Reprise)", "A Day in the Life"]
+    },
+    {
+      "title": "Dopamine",
+      "artist": "BORNS",
+      "year": 2015,
+      "tracks": ["10,000 Emerald Pools", "Dug My Heart", "Electric Love", "American Money", "The Emotion", "Holy Ghost", "Past Lives", "Clouds", "Dopamine", "Overnight Sensation", "Fool"]
+    },
+    {
+      "title": "Crushing",
+      "artist": "Julia Jacklin",
+      "year": 2019,
+      "tracks": ["Body", "Head Alone", "Pressure to Party", "Don't Know How to Keep Loving You", "When the Family Flies In", "Convention", "Good Guy", "You Were Right", "Turn Me Down", "Comfort"]
+    },
+    {
+      "title": "Norman Fucking Rockwell",
+      "artist": "Lana Del Ray",
+      "year": 2019,
+      "tracks": ["Norman Fucking Rockwell", "Mariners Apartment Complex", "Venice Bitch", "Fuck It I Love You", "Doin' Time", "Love Song", "Cinnamon Girl", "How to Disappear", "California", "The Next Best American Record", "The Greatest", "Bartender", "Happiness Is a Butterfly", "Hope Is a Dangerous Thing for a Woman Like Me to Have — but I Have It"]
+    },
+    {
+      "title": "The King is Dead",
+      "artist": "The Decemberists",
+      "year": 2011,
+      "tracks": ["Don't Carry It All", "Calamity Song", "Rise to Me", "Rox in the Box", "January Hymn", "Down by the Water", "All Arise!", "June Hymn", "This Is Why We Fight", "Dear Avery"]
+    },
+    {
+      "title": "The Crane Wife",
+      "artist": "The Decemberists",
+      "year": 2006,
+      "tracks": ["The Crane Wife 3", "The Island: Come and See; The Landlord's Daughter; You'll Not Feel the Drowning", "Yankee Bayonet (I Will Be Home Then)", "O Valencia!", "The Perfect Crime #2", "When the War Came", "Shankill Butchers", "Summersong", "The Crane Wife 1 & 2", "Sons and Daughters"]
+    },
+    {
+      "title": "The Beatles",
+      "artist": "The Beatles",
+      "year": 1968,
+      "tracks": ["Back in the U.S.S.R.", "Dear Prudence", "Glass Onion", "Ob-La-Di, Ob-La-Da", "Wild Honey Pie", "The Continuing Story of Bungalow Bill", "While My Guitar Gently Weeps", "Happiness is a Warm Gun", "Martha My Dear", "I'm so tired", "Blackbird", "Piggies", "Rocky Raccoon", "Don't Pass Me By", "Why don't we do it in the road?", "I Will", "Julia", "Birthday", "Yer Blues", "Mother Nature's Son", "Everybody's Got Something to Hide Except Me and My Monkey", "Sexy Sadie", "Helter Skelter", "Long, Long, Long", "Revolution I", "Honey Pie", "Savoy Truffle", "Cry Baby Cry", "Revolution 9", "Good Night"]
+    }
   ]
 }
