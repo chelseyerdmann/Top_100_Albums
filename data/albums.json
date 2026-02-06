@@ -1,0 +1,31 @@
+{
+  "albums": [
+    { "title": "RELAXER", "artist": "Alt-J", "year": 2017 },
+    { "title": "The Dream", "artist": "Alt-J", "year": 2022 },
+    { "title": "Blue Weekend", "artist": "Wolf Alice", "year": 2021 },
+    { "title": "Cuttin' Grass - Vol. 1 (Butcher Shoppe Sessions)", "artist": "Sturgill Simpson", "year": 2020 },
+    { "title": "Emotionalism", "artist": "The Avett Brothers", "year": 2007 },
+    { "title": "Mignonette", "artist": "The Avett Brothers", "year": 2004 },
+    { "title": "Mean Everything to Nothing", "artist": "Manchester Orchestra", "year": 2009 },
+    { "title": "The Wall", "artist": "Pink Floyd", "year": 1979 },
+    { "title": "Mosquito (Deluxe)", "artist": "Yeah Yeah Yeahs", "year": 2013 },
+    { "title": "Dragon New Warm Mountain I Believe In You", "artist": "Big Thief", "year": 2022 },
+    { "title": "The Ballad of Dood & Juanita", "artist": "Sturgill Simpson", "year": 2021 },
+    { "title": "It's Blitz!", "artist": "Yeah Yeah Yeahs", "year": 2009 },
+    { "title": "This Is All Yours", "artist": "Alt-J", "year": 2014 },
+    { "title": "3 Rounds and a Sound", "artist": "Blind Pilot", "year": 2008 },
+    { "title": "Meddle", "artist": "Pink Floyd", "year": 1971 },
+    { "title": "Captain Fantastic And The Brown Dirty Cowboy", "artist": "Elton John", "year": 1975 },
+    { "title": "Tusk", "artist": "Fleetwood Mac", "year": 1979 },
+    { "title": "The Gleam II", "artist": "The Avett Brothers", "year": 2008 },
+    { "title": "Stars and Satellites", "artist": "Trampled by Turtles", "year": 2012 },
+    { "title": "Sgt. Peppers Lonely Hearts Club Band", "artist": "The Beatles", "year": 1967 },
+    { "title": "Dopamine", "artist": "BORNS", "year": 2015 },
+    { "title": "Crushing", "artist": "Julia Jacklin", "year": 2019 },
+    { "title": "Norman Fucking Rockwell", "artist": "Lana Del Ray", "year": 2019 },
+    { "title": "The King is Dead", "artist": "The Decemberists", "year": 2011 },
+    { "title": "The Crane Wife", "artist": "The Decemberists", "year": 2006 },
+    { "title": "The Beatles", "artist": "The Beatles", "year": 1968 },
+    { "title": "Bloom", "artist": "Beach House", "year": 2012 }
+  ]
+}
