@@ -4,11 +4,11 @@ A personal list of top albums with full track listings. Data is in `data/albums.
 
 ## Data
 
-- **`data/albums.json`** ? JSON array of albums. Each album has:
-  - **`title`** ? Album name
-  - **`artist`** ? Artist or band name
-  - **`year`** ? Release year
-  - **`tracks`** ? Array of song titles (in order)
+- **`data/albums.json`** JSON array of albums. Each album has:
+  - **`title`**  Album name
+  - **`artist`**  Artist or band name
+  - **`year`**  Release year
+  - **`tracks`**  Array of song titles (in order)
 
 ### Example
 
