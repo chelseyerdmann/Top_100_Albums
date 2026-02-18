@@ -4,7 +4,7 @@ A personal list of top albums with full track listings. Data is in `data/albums.
 
 ##  To Do
 
--  ** spotify'** acquire api key for spotify account, track plays in lifetime across top albums. 
+-  **`spotify`** acquire api key for spotify account, track plays in lifetime across top albums. 
 
 
 ## Data
