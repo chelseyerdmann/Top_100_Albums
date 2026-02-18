@@ -2,6 +2,11 @@
 
 A personal list of top albums with full track listings. Data is in `data/albums.json` for use in code, testing, or other projects.
 
+##  To Do
+
+-  ** spotify'** acquire api key for spotify account, track plays in lifetime across top albums. 
+
+
 ## Data
 
 - **`data/albums.json`** JSON array of albums. Each album has:
