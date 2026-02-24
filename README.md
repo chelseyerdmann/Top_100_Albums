@@ -4,6 +4,14 @@ A combined project: **manual top albums** with a Streamlit dashboard, plus **Spo
 
 ---
 
+## About this project
+
+This repo demonstrates end-to-end data pipelines and dashboards: **REST APIs** (Spotify Web API with OAuth and client credentials), **data ingestion** (paginated fetches, JSON), **analysis** (Pandas), and **visualization** (Streamlit, Plotly). It also cross-compares API data with manually curated data and deploys a live dashboard (Streamlit Community Cloud) so reviewers can see the output without running anything locally.
+
+**Tech stack:** Python · Spotify Web API (OAuth, client credentials) · Jupyter · Streamlit · Plotly · Pandas · JSON
+
+---
+
 ## View the Liked Songs dashboard (no setup)
 
 You can view the **Spotify Liked Songs dashboard** with sample data without cloning or running anything:
