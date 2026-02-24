@@ -4,6 +4,23 @@ A combined project: **manual top albums** with a Streamlit dashboard, plus **Spo
 
 ---
 
+## View the Liked Songs dashboard (no setup)
+
+You can view the **Spotify Liked Songs dashboard** with sample data without cloning or running anything:
+
+**[View dashboard (demo)](https://top100albums-kryrwafdbmdkzcs5xjnwim.streamlit.app/)**
+
+The demo uses `data/liked_songs_demo.json` so visitors see the layout and charts. To use your own Liked Songs, follow the [Quick start](#quick-start-spotify) and run the dashboard locally.
+
+### How to add your own live link
+
+1. Go to [Streamlit Community Cloud](https://share.streamlit.io) and sign in with GitHub.
+2. Click **New app**; select this repo, branch `main`, and app path: `src/dashboard_liked_songs.py`.
+3. Deploy; Streamlit will give you a URL like `https://your-app-name.streamlit.app`.
+4. Put that URL in the link above (replace `https://your-app-name.streamlit.app`) so visitors can open the dashboard from the README.
+
+---
+
 ## What’s in this repo
 
 | Part | Description |

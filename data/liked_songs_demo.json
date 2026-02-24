@@ -1,0 +1,11 @@
+{
+  "total": 6,
+  "items": [
+    {"track": {"name": "Myth", "artists": [{"name": "Beach House"}], "album": {"name": "Bloom", "release_date": "2012"}, "popularity": 62}},
+    {"track": {"name": "Wild", "artists": [{"name": "Beach House"}], "album": {"name": "Bloom", "release_date": "2012"}, "popularity": 58}},
+    {"track": {"name": "Blue Weekend", "artists": [{"name": "Wolf Alice"}], "album": {"name": "Blue Weekend", "release_date": "2021"}, "popularity": 55}},
+    {"track": {"name": "The Dream", "artists": [{"name": "alt-J"}], "album": {"name": "The Dream", "release_date": "2022"}, "popularity": 60}},
+    {"track": {"name": "Breezeblocks", "artists": [{"name": "alt-J"}], "album": {"name": "An Awesome Wave", "release_date": "2012"}, "popularity": 70}},
+    {"track": {"name": "Babel", "artists": [{"name": "alt-J"}], "album": {"name": "An Awesome Wave", "release_date": "2012"}, "popularity": 65}}
+  ]
+}

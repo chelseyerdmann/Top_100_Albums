@@ -13,6 +13,7 @@ import plotly.express as px
 # Path to data
 ROOT = Path(__file__).resolve().parent.parent
 DATA_PATH = ROOT / "data" / "liked_songs_all.json"
+DEMO_DATA_PATH = ROOT / "data" / "liked_songs_demo.json"
 MANUAL_ALBUMS_PATH = ROOT / "data" / "sample_saved_albums.json"
 
 # Normalize artist name for comparison (case-insensitive; fix known typos)
@@ -26,12 +27,13 @@ def _norm(s):
 
 
 def load_liked_songs():
-    if not DATA_PATH.exists():
+    path = DATA_PATH if DATA_PATH.exists() else (DEMO_DATA_PATH if DEMO_DATA_PATH.exists() else None)
+    if path is None:
         return None, "No data file found. Run: **py src/fetch_all_liked_songs.py &lt;auth_code&gt;** (get the code from the Spotify redirect URL after authorizing)."
-    with open(DATA_PATH, encoding="utf-8") as f:
+    with open(path, encoding="utf-8") as f:
         data = json.load(f)
     items = data.get("items", [])
-    return items, None
+    return items, path == DEMO_DATA_PATH
 
 
 def load_manual_albums():
@@ -82,11 +84,14 @@ def main():
     st.title("My Spotify Liked Songs — All Time")
     st.caption("Dashboard of your liked tracks. Data from Spotify API (all time).")
 
-    items, err = load_liked_songs()
-    if err:
-        st.warning(err)
+    items, err_or_demo = load_liked_songs()
+    if isinstance(err_or_demo, str):
+        st.warning(err_or_demo)
         st.info("To get your auth code: run the first cell of `spotify_artists_from_my_plays.ipynb`, click Agree in the browser, then copy the part of the URL after `?code=` and before `&`.")
         return
+    is_demo = err_or_demo
+    if is_demo:
+        st.info("**Demo mode:** Showing sample data from `data/liked_songs_demo.json`. Run `fetch_all_liked_songs.py` with your auth code to use your own Liked Songs.")
 
     records = build_records(items)
     df = pd.DataFrame(records)
