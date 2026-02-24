@@ -27,8 +27,8 @@ def load_env():
 
 load_env()
 
-CLIENT_ID = os.getenv("SPOTIFY_CLIENT_ID", "your_client_id")
-CLIENT_SECRET = os.getenv("SPOTIFY_CLIENT_SECRET", "your_client_secret")
+CLIENT_ID = os.getenv("SPOTIFY_CLIENT_ID")
+CLIENT_SECRET = os.getenv("SPOTIFY_CLIENT_SECRET")
 REDIRECT_URI = os.getenv("SPOTIFY_REDIRECT_URI", "http://127.0.0.1:8080/callback")
 
 
@@ -80,6 +80,8 @@ def main():
         print("Usage: py fetch_all_liked_songs.py <auth_code>")
         print("Get auth_code by running the first cell of spotify_artists_from_my_plays.ipynb and copying the code from the redirect URL.")
         raise SystemExit(1)
+    if not CLIENT_ID or not CLIENT_SECRET:
+        raise SystemExit("Set SPOTIFY_CLIENT_ID and SPOTIFY_CLIENT_SECRET in .env (copy from .env.example). Do not commit .env.")
 
     print("Exchanging code for token...")
     token = get_access_token(args.auth_code)

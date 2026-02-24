@@ -1,11 +1,24 @@
 """Run second cell: exchange auth code for token and fetch top artists."""
+import os
 import requests
 import base64
+from pathlib import Path
 
-client_id = "your_client_id"
-client_secret = "your_client_secret"
-redirect_uri = "http://127.0.0.1:8080/callback"
-auth_code = "AQAXkLC9Uz00wPBND-8CxgrcmnfqPM_fsBdu1H5ikdAagZtu9vmUnowQWy9rda5UNa16-chPOtfdmjyDB3OplgyK9w7JCTDksGtbu-dt-eY6Gkvg_rcTQGX32Xrf2lIMSVWYw0H8ucCS6WiypBgd0Z6o4yAzHPmh-u2pEyhuXkoL9AYdwgUi1ZPmMBceVWK8KA5UeE11dOz40F_WpmKDLvM0OsM"
+# Load from .env (repo root)
+from dotenv import load_dotenv
+load_dotenv(Path(__file__).resolve().parent.parent / ".env")
+client_id = os.getenv("SPOTIFY_CLIENT_ID")
+client_secret = os.getenv("SPOTIFY_CLIENT_SECRET")
+redirect_uri = os.getenv("SPOTIFY_REDIRECT_URI", "http://127.0.0.1:8080/callback")
+import argparse
+parser = argparse.ArgumentParser()
+parser.add_argument("auth_code", nargs="?", default=os.getenv("SPOTIFY_AUTH_CODE"), help="Auth code from redirect URL")
+args = parser.parse_args()
+auth_code = args.auth_code or ""
+if not auth_code or not client_id or not client_secret:
+    print("Usage: py run_top_artists.py <auth_code>")
+    print("Set SPOTIFY_CLIENT_ID and SPOTIFY_CLIENT_SECRET in .env. Pass auth_code from redirect URL.")
+    exit(1)
 
 auth_str = f"{client_id}:{client_secret}"
 auth_base64 = base64.b64encode(auth_str.encode("utf-8")).decode("utf-8")

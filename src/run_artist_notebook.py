@@ -1,10 +1,14 @@
 """Run artist data retrieval (Wolf Alice) - same logic as the notebook."""
+import os
 import requests
 import base64
+from pathlib import Path
+from dotenv import load_dotenv
 
-# Credentials (from .env or notebook)
-client_id = 'your_client_id'
-client_secret = 'your_client_secret'
+# Load from .env (do not commit .env)
+load_dotenv(Path(__file__).resolve().parent.parent / ".env")
+client_id = os.getenv("SPOTIFY_CLIENT_ID")
+client_secret = os.getenv("SPOTIFY_CLIENT_SECRET")
 
 # Get token
 auth_str = f"{client_id}:{client_secret}"
