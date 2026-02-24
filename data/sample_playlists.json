@@ -1,0 +1,12 @@
+{
+  "href": "https://api.spotify.com/v1/me/playlists",
+  "items": [
+    { "name": "My Favorites", "id": "sample-playlist-1" },
+    { "name": "Chill Vibes", "id": "sample-playlist-2" }
+  ],
+  "limit": 20,
+  "next": null,
+  "offset": 0,
+  "previous": null,
+  "total": 2
+}

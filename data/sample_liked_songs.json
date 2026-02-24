@@ -1,0 +1,18 @@
+{
+  "href": "https://api.spotify.com/v1/me/tracks",
+  "items": [
+    {
+      "added_at": "2024-01-01T00:00:00Z",
+      "track": {
+        "name": "Song One",
+        "artists": [{ "name": "Artist One" }],
+        "album": { "name": "Album One" }
+      }
+    }
+  ],
+  "limit": 20,
+  "next": null,
+  "offset": 0,
+  "previous": null,
+  "total": 1
+}
