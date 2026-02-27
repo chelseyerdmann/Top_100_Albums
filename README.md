@@ -18,7 +18,7 @@ You can view the **Spotify Liked Songs dashboard** with sample data without clon
 
 **[View dashboard (demo)](https://top100albums-kryrwafdbmdkzcs5xjnwim.streamlit.app/)**
 
-The demo uses `data/liked_songs_demo.json` so visitors see the layout and charts. To use your own Liked Songs, follow the [Quick start](#quick-start-spotify) and run the dashboard locally.
+The demo uses `data/liked_songs_demo.json` (150+ songs across 20+ artists from the repo’s albums list) so visitors see the layout and charts. To regenerate or expand it, run: `py scripts/generate_demo_liked_songs.py`. To use your own Liked Songs, follow the [Quick start](#quick-start-spotify) and run the dashboard locally.
 
 ### How to add your own live link
 
