@@ -1,12 +1,16 @@
 # Top 100 Albums & Spotify Data Retrieval
 
-A combined project: **manual top albums** with a Streamlit dashboard, plus **Spotify Web API** integration to retrieve your library, liked songs, and top artists—with dashboards and comparison to your manual list.
+This project builds a data pipeline and interactive dashboards using the Spotify Web API and Python. It retrieves user library data (liked songs, artists, albums), processes it with Pandas, and visualizes insights through a Streamlit dashboard.
 
----
+The project also compares Spotify listening data with a manually curated Top 100 Albums dataset.
 
-## About this project
+### What this project demonstrates
 
-This repo demonstrates end-to-end data pipelines and dashboards: **REST APIs** (Spotify Web API with OAuth and client credentials), **data ingestion** (paginated fetches, JSON), **analysis** (Pandas), and **visualization** (Streamlit, Plotly). It also cross-compares API data with manually curated data and deploys a live dashboard (Streamlit Community Cloud) so reviewers can see the output without running anything locally.
+- REST API integration (Spotify Web API with OAuth)
+- Data ingestion and pagination
+- Data analysis using Pandas
+- Interactive dashboards with Streamlit and Plotly
+- Comparing structured datasets with API-derived data
 
 **Tech stack:** Python · Spotify Web API (OAuth, client credentials) · Jupyter · Streamlit · Plotly · Pandas · JSON
 
